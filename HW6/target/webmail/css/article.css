@@ -1,0 +1,68 @@
+article .title {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, "sans-serif";
+    color: #3B5998;
+}
+
+article .title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, "sans-serif";
+    color: #3B5998;
+}
+
+article .body {
+    border-left: 4px solid #B9B9B9;
+    font-family: Verdana, "sans-serif";
+    padding-left: 1rem;
+    font-size: 14px;
+}
+
+article .information {
+    margin-top: 0.2rem;
+    font-size: 13px;
+    color: #888;
+}
+
+article .footer {
+    margin: 0;
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    padding: 0.3rem 0.6rem 0.2rem 0.6rem;
+    border: 1px solid #B9B9B9;
+    border-radius: var(--border-radius);
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    vertical-align: bottom;
+}
+
+article .attachment {
+    list-style-image:url(../img/paperclip-16x16.png);
+    margin-left: 1.5rem;
+    padding: 0;
+    color: #888;
+    font-size: 12px;
+}
+
+article .footer .left {
+    display: inline;
+    float: left;
+}
+
+article .footer .right {
+    display: inline;
+    float: right;
+}
+
+article .footer .date {
+    display: inline;
+    float: left;
+}
+
+article .footer .left .positive-score {
+    color: green;
+    font-size: 18px;
+    font-family: Verdana, "sans-serif";
+}
