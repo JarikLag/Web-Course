@@ -28,7 +28,7 @@
 
 
 ## Практика №5
-Скачайте проект с https://assets.codeforces.com/files/6e78d88da1176e86/5d/wm1.7z. Перейдите по http://wp.codeforces.com/phpMyAdmin/ в свою базу данных и накликайте там таблицу User с полями:
+Перейдите по http://wp.codeforces.com/phpMyAdmin/ в свою базу данных и накликайте там таблицу User с полями:
   * id (BIGINT до 18 знаков, autoincrement, primary key, not null)
   * login (VARCHAR до 255 знаков, ключ уникальности unique_User_login, not null)
   * passwordSha (VARCHAR до 255 знаков, not null)
